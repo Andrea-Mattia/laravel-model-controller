@@ -1,9 +1,9 @@
 @extends('layouts.main')
 
 @section('content')
-    <section class="container">
+    <section class="container cards df jcc aic">
         @foreach ($movies as $movie)
-            <div class="card">
+            <div class="card df jcc aic">
                 <h4>{{ $movie->title }}</h4>
                 <ul>
                     <li>Titolo originale: {{ $movie->original_title }}</li>

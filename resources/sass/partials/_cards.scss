@@ -1,0 +1,21 @@
+.cards {
+    flex-wrap: wrap;
+    .card {
+        flex-direction: column;
+        flex-basis: calc(100% / 5 - 1rem);
+        min-height: 250px;
+        margin: 2rem 0.5rem;
+        padding: 1rem;
+        color: $text-color;
+        background: $brand-color;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: transform 0.2s;
+        &:hover {
+            transform: scale(1.12);
+        }
+        ul li {
+            margin: 0.5rem 0;
+        }
+    }
+}

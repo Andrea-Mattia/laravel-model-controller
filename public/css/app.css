@@ -1,0 +1,77 @@
+/***********************************************************
+        APP STYLES
+***********************************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.df {
+  display: flex;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.aic {
+  align-items: center;
+}
+
+header {
+  color: #fff;
+  background: dodgerblue;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  margin: 1rem 0;
+}
+
+.cards {
+  flex-wrap: wrap;
+}
+
+.cards .card {
+  flex-direction: column;
+  flex-basis: calc(100% / 5 - 1rem);
+  min-height: 250px;
+  margin: 2rem 0.5rem;
+  padding: 1rem;
+  color: #fff;
+  background: dodgerblue;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.cards .card:hover {
+  transform: scale(1.12);
+}
+
+.cards .card ul li {
+  margin: 0.5rem 0;
+}
+
+.main-footer {
+  padding: 1rem 0;
+  color: #fff;
+  background: dodgerblue;
+}
+

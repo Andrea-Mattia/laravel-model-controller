@@ -1,1 +1,13 @@
-//
+/***********************************************************
+        APP STYLES
+***********************************************************/
+
+// GENERAL
+@import "partials/commons";
+@import "partials/utilities";
+@import "partials/vars";
+
+// LAYOUT
+@import "partials/header";
+@import "partials/cards";
+@import "partials/footer";
